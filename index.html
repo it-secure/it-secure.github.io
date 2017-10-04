@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>#ITSec</title>
+  <meta name="description" content="ITSec promo page. #ITSec offers a wide range of security tests: penetration testing & audits, social engineering, webapps & systems security testing.">
+  <meta name="author" content="#ITSec team" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Inconsolata" />
+</head>
+<body>
+
+<!-- count particles 
+<div class="count-particles">
+  <span class="js-count-particles">--</span> particles
+</div>
+-->
+
+<div class="logobox">
+  <h1 class="title">#ITSec</h1>
+  <span class="infobox"><span class="typed"></span></span>
+  <img src="http://155.133.43.155/itsec/img/logo.png" width="200px"/>
+</div>
+
+<!-- particles.js container -->
+<div id="particles-js"></div>
+
+<!-- scripts -->
+<script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+
+<script src="particles.js"></script>
+<script src="js/app.js"></script>
+<script src="js/typed.js"></script>
+
+<!-- stats.js 
+<script src="js/lib/stats.js"></script>
+<script>
+  var count_particles, stats, update;
+  stats = new Stats;
+  stats.setMode(0);
+  stats.domElement.style.position = 'absolute';
+  stats.domElement.style.left = '0px';
+  stats.domElement.style.top = '0px';
+  document.body.appendChild(stats.domElement);
+  count_particles = document.querySelector('.js-count-particles');
+  update = function() {
+    stats.begin();
+    stats.end();
+    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+      count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+    }
+    requestAnimationFrame(update);
+  };
+  requestAnimationFrame(update);
+</script>
+-->
+<script>
+$(function(){
+	$(".typed").typed({
+		strings: ["it security", "audits", "pentesting", "itsec@int.pl"],
+			typeSpeed: 1
+		});
+	});
+</script>
+
+</body>
+</html>
